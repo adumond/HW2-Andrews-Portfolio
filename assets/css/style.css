@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: "El Messiri", sans-serif;
+  background-image: url("file:///C:/Users/acdum/OneDrive/Desktop/Class%20Homeworks/Homeworks/HW2-Andrews-Portfolio/assets/images/background.png");
+  background-position: center center;
+  background-size: 2000px 8000px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background-color: rgb(97, 97, 97, 0.75);
+  color: rgb(102, 198, 228);
+}
+
+h1 {
+  font-size: 300%;
+  color: rgb(102, 198, 228);
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+
+.navlinks {
+  /* border: red solid 5px; */
+  display: flex;
+  padding: 12px;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+nav a {
+  color: rgb(102, 198, 228);
+  font-weight: bold;
+  text-decoration: none;
+  /* border: red solid 5px; */
+  padding: 12px;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 0);
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+}
+
+.profile-photo {
+}
+img {
+  width: 40%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.bio {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-indent: 5%;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255, 0.75);
+  border-radius: 25px;
+  padding: 1.5%;
+}
+.aboutMe {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+}
+.portfolio {
+  text-align: center;
+}
+
+.portfolioTitles {
+  text-align: center;
+  font-size: 200%;
+}
